@@ -9,7 +9,7 @@ TeleConnect is facing customer retention challenges. This analysis seeks to answ
 - What services, contracts, and payment methods drive loyalty?
 
 ### Methodology
-This project followed the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) framework[citation:1][citation:5]:
+This project followed the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) framework:
 1.  **Business Understanding** - Defined objectives to reduce churn.
 2.  **Data Understanding** - Explored a dataset of 7,043 customers.
 3.  **Data Preparation** - Cleaned data and created a `churn_flag`.
@@ -19,6 +19,8 @@ This project followed the **CRISP-DM** (Cross-Industry Standard Process for Data
 
 ### Key Findings
 - **Key Driver:** Customers with **month-to-month contracts** and **no internet service** have the highest churn risk.
+- Those who pay with electronic checks, especially those with low monthly charges have the highest churn, at 42.8%.
+- Highest monthly charges correlate with lower churn across all payment methods, iondicating that most high spending clients are loyal.
 
 ### Recommendations
 - Target month-to-month contract customers customers without internet access with special internet access offers (free installation, first month discounts, etc).
@@ -29,5 +31,5 @@ This project followed the **CRISP-DM** (Cross-Industry Standard Process for Data
 - Train customer service agents to spot high risk clients and proactively offer retention packages.
 
 ### Repository Structure
-- Python notebook with all Python code.
+- Python notebook.
 - Original dataset (csv file).
